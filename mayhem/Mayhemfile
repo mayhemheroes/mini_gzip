@@ -1,0 +1,6 @@
+project: mini_gzip
+target: mini-gzip-fuzz
+
+cmds:
+    - cmd: ./mini-gzip-fuzz
+      libfuzzer: true
